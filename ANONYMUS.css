@@ -1,0 +1,77 @@
+@font-face {
+    font-family: ZARAR;
+    src: url(Roboto_Condensed-Black.ttf);
+}
+
+h1{
+    font-size: 24px;
+    color: red;
+}
+
+body{
+    background-color: rgb(0, 0, 0);
+}
+
+.comtainer{
+    display: flex;
+    justify-content: center;
+    margin-inline:50px;
+}
+
+.card{
+    width: 310px;
+    height: 463px;
+    background-color: rgb(0, 255, 251);
+    text-align: center;
+    border-radius: 10px;
+    margin-inline: 33px;
+    font-family: ZARAR;
+    box-shadow: 40px, 40px, 50px red;
+}
+
+.img-div img{
+    width: 140px;
+    height: 140px;
+    border-radius: 46%;
+    margin-top: 20px;
+}
+
+.img-div{
+    background-color: rgb(250, 0, 0);
+    height: 190px;
+    border-radius: 10px;
+}
+
+.card p{
+    font-size: 14px;
+    color: rgba(107,107,107);
+}
+
+.card button{
+    width: 180px;
+    height: 40px;
+    background-color: rgb(225, 0, 0);
+    border-radius: 4px;
+    color: white;
+    font-size: 25px;
+    border: none;
+}
+
+.icon{
+    font-size: 30px;
+    margin: 20px;
+}
+
+.icon i{
+    margin-inline: 10px;
+    
+}
+
+.icon span{
+    color: rgba(0,119,225);
+}
+
+.icon .icon_4{
+    color: rgb(228, 71, 97);
+}
+
